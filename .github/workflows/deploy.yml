@@ -31,5 +31,5 @@ jobs:
           port: ${{ secrets.SFTP_PORT }}
           ssh_private_key: ${{ secrets.SFTP_SSH_KEY }}
           local_path: './*'
-          remote_path: '/var/www/html/ed.thebyrnefamily.ca'
+          remote_path: '/var/www/html/jason.thebyrnefamily.ca'
           delete_remote_files: false
